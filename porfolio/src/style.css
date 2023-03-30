@@ -1,0 +1,9 @@
+:root {
+    --paragraph-color: rgb(253, 0, 0);
+    
+}
+
+p {font-family: Marcellus, serif;
+font-size: 20px;
+color: var(--paragraph-color);
+}
