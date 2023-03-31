@@ -1,13 +1,27 @@
 :root {
     --paragraph-color: #d40000;
-    --margin-top: 140px;
-    --logo: url("src/pey-logo-02.png")
+    --margin-top: 130px;
+    --logo: url("src/img/pey-logo-02.png")
 }
 
 
 h1 {
     font-size: 99px;
 }
+
+.title {
+    font-family: Marcellus, serif;
+        color: var(--paragraph-color);
+        font-size: 30px;
+}
+
+.img-border {
+    
+    border-radius: 10px;
+}
+
+
+
 .link {font-family: Marcellus, serif;
     color: var(--paragraph-color);
     text-decoration: none;
@@ -15,7 +29,7 @@ h1 {
 }
 
 .logo {
-    max-width: 70px;
+    max-width: 65px;
     margin-right: 20px;
     background-image: var(--logo);
 }
@@ -24,10 +38,6 @@ h1 {
     box-shadow: none !important;
 }
 
-h2 {font-family: Marcellus, serif;
-    color: var(--paragraph-color);
-    font-size: 40px;
-}
 
 .navbar-toggler {
     border: 0 !important;
