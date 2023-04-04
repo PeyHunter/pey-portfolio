@@ -15,8 +15,7 @@ h1 {
         font-size: 30px;
 }
 
-.img-border {
-    
+.img-border { 
     border-radius: 10px;
 }
 
@@ -47,3 +46,11 @@ h1 {
     margin-top: var(--margin-top);
 }
 
+@media (max-width: 800px) {
+    p,
+    .link {
+        font-size: 14px;
+    }
+    h1 {font-size: 70px;}
+    .title {font-size: 25px;}
+}
