@@ -1,9 +1,13 @@
 :root {
     --paragraph-color: #d40000;
+    --hover-color: #057a32;
     --margin-top: 130px;
     --logo: url("/src/img/pey-logo-02.png")
 }
 
+body {
+    cursor: none;
+}
 
 h1 {
     font-size: 99px;
@@ -15,6 +19,7 @@ h1 {
         font-size: 30px;
 }
 
+
 .img-border { 
     border-radius: 10px;
 }
@@ -22,7 +27,7 @@ h1 {
 .cursor {
     width: 1rem;
     height: 1rem;
-    border: 2px solid var(--paragraph-color);
+    background-color: var(--paragraph-color);
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -30,27 +35,31 @@ h1 {
     transition: all 0.3s ease;
     transition-property: background, transform;
     transform-origin: 100% 100%;
+    z-index: 9999;
 }
 
 .link {font-family: Marcellus, serif;
     color: var(--paragraph-color);
     text-decoration: none;
     font-size: 17.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .link-grow {
     transform: scale(3);
-    background-color: var(--paragraph-color);
+    background-color: rgba(255, 255, 255, 0);
+    border: 0.7px solid var(--hover-color) ;
 }
 
 .link:hover {
-    color: white;
+    color: var(--hover-color);
 }
 
 .logo {
     max-width: 65px;
     margin-right: 20px;
-    background-image: var(--logo);
+    padding: 0px
 }
 .navbar-toggler:focus {
     border: 0 !important;
