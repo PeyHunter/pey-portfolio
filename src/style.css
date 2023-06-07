@@ -1,106 +1,111 @@
 :root {
-    --paragraph-color: #d40000;
-    --hover-color: #057a32;
-    --margin-top: 130px;
-    --logo: url("/src/img/pey-logo-02.png")
+  --paragraph-color: #d40000;
+  --hover-color: #057a32;
+  --margin-top: 130px;
+  --logo: url("/src/img/pey-logo-02.png");
 }
 
 body {
-    cursor: none;
+  cursor: none;
 }
 
 h1 {
-    font-size: 99px;
+  font-size: 99px;
 }
 
 .title {
-    font-family: Marcellus, serif;
-        color: var(--paragraph-color);
-        font-size: 30px;
+  font-family: Marcellus, serif;
+  color: var(--paragraph-color);
+  font-size: 30px;
 }
 
-
-.img-border { 
-    border-radius: 10px;
+.img-border {
+  border-radius: 10px;
 }
 
 .img-border-1px {
-    border: solid 1px rgb(174, 174, 174) ;
+  border: solid 1px rgb(174, 174, 174);
 }
 
 .cursor {
-    width: 1rem;
-    height: 1rem;
-    background-color: var(--paragraph-color);
-    border-radius: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    transition: all 0.3s ease;
-    transition-property: background, transform;
-    transform-origin: 100% 100%;
-    z-index: 9999;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--paragraph-color);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.3s ease;
+  transition-property: background, transform;
+  transform-origin: 100% 100%;
+  z-index: 9999;
 }
 
-.link {font-family: Marcellus, serif;
-    color: var(--paragraph-color);
-    text-decoration: none;
-    font-size: 17.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.link {
+  font-family: Marcellus, serif;
+  color: var(--paragraph-color);
+  text-decoration: none;
+  font-size: 17.5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .link-grow {
-    transform: scale(3);
-    background-color: rgba(255, 255, 255, 0);
-    border: 0.7px solid var(--hover-color) ;
+  transform: scale(3);
+  background-color: rgba(255, 255, 255, 0);
+  border: 0.7px solid var(--hover-color);
 }
 
 .link:hover {
-    color: var(--hover-color);
+  color: var(--hover-color);
 }
 
 .logo {
-    max-width: 65px;
-    margin-right: 20px;
-    padding: 0px
+  max-width: 65px;
+  margin-right: 20px;
+  padding: 0px;
 }
 .navbar-toggler:focus {
-    border: 0 !important;
-    box-shadow: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
 }
 
-
 .navbar-toggler {
-    border: 0 !important;
+  border: 0 !important;
 }
 
 .margin-top {
-    margin-top: var(--margin-top);
+  margin-top: var(--margin-top);
 }
 
 #video-background {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-            z-index: -1;
-             transform: rotate(180deg);
-
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  transform: rotate(180deg);
 }
 
 .distance-finder {
-    padding: 10px;
-    border: 1px solid var(--paragraph-color);
-    border-radius: 20px;
+  padding: 10px;
+  border: 1px solid var(--paragraph-color);
+  border-radius: 20px;
 }
 
 @media (max-width: 800px) {
-    p,
-    .link {
-        font-size: 14px;
-    }
-    h1 {font-size: 70px;}
-    .title {font-size: 25px;}
+  p,
+  .link {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 70px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  h6 {
+    font-size: 15px;
+  }
 }
