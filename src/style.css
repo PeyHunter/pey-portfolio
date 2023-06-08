@@ -1,5 +1,5 @@
 :root {
-  --paragraph-color: #d40000;
+  --paragraph-color: rgb(214, 0, 0);
   --hover-color: #057a32;
   --margin-top: 130px;
   --logo: url("/src/img/pey-logo-02.png");
